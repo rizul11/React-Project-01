@@ -1,0 +1,12 @@
+<svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 15882">
+<rect id="Rectangle 2549" x="0.642334" y="2.17578" width="55" height="55" rx="11.3963" transform="rotate(-2.23994 0.642334 2.17578)" fill="url(#paint0_linear_589_1087)"/>
+<path id="Fill 11" fill-rule="evenodd" clip-rule="evenodd" d="M13.3523 45.6768L17.4741 45.5155L16.7502 27.0071L22.8841 45.3039L27.0918 45.1393L26.3678 26.631L32.5017 44.9277L36.7094 44.7632L35.9855 26.2548L42.1194 44.5516L46.3271 44.387L45.0401 11.4832L40.9182 11.6444L41.6422 30.1528L35.5083 11.856L31.3006 12.0206L32.0245 30.529L25.8907 12.2322L21.6829 12.3968L22.4069 30.9052L16.273 12.6084L12.0653 12.773L13.3523 45.6768Z" fill="#01FFFC"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_589_1087" x1="48.6313" y1="42.2057" x2="48.6313" y2="-24.8383" gradientUnits="userSpaceOnUse">
+<stop stop-color="#101B5F"/>
+<stop offset="1" stop-color="#7447A3"/>
+</linearGradient>
+</defs>
+</svg>

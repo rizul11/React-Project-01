@@ -1,0 +1,55 @@
+import Alien from "../images/Alien.png";
+import Application from "../images/Application.png";
+import Bitmap from "../images/Bitmap.png";
+import CombinedShapeCopy from "../images/Combined Shape Copy 7.svg";
+import Fill1Copy3 from "../images/Fill 1 Copy 3.svg";
+import Fill1 from "../images/Fill 1.svg";
+import Fill11 from "../images/Fill 11.svg";
+import Group16114 from "../images/Group 16114.pngsvg";
+import Group17Copy3 from "../images/Group 17 Copy 3.png";
+import Group19321 from "../images/Group 19321.svg";
+import Group19339 from "../images/Group 19339.png";
+import Growth from "../images/Growth.png";
+import IMG_33241 from "../images/IMG_3324 1.png";
+import IMG_34771 from "../images/IMG_3477 1.png";
+import IMG_37011 from "../images/IMG_3701 1.png";
+import Our_team01 from "../images/Our_team01.png";
+import Our_team02 from "../images/Our_team02.png";
+import Our_team03 from "../images/Our_team03.png";
+import Oval_Tech from "../images/Oval_Tech.png";
+import Presented from "../images/Presented.png";
+import Refresh from "../images/Refresh.svg";
+import Reply from "../images/Reply.svg";
+import TheGlobalNFTSummi1 from "../images/The Global NFT Summi (1).png";
+import TheGlobalNFTSummi from "../images/The Global NFT Summi.png";
+import Tickets_Icon01 from "../images/Tickets_Icon01.svg";
+import Tickets_Icon02 from "../images/Tickets_Icon02.svg";
+import Tickets_Icon03 from "../images/Tickets_Icon03.svg";
+import Updates01 from "../images/Updates01.png";
+import Updates02 from "../images/Updates02.png";
+import Updates03 from "../images/Updates03.png";
+import Upload from "../images/Upload.svg";
+import Vector1 from "../images/Vector (1).svg";
+import Vector from "../images/Vector.svg";
+import Wishlist from "../images/Wishlist.svg";
+import br from "../images/br.png";
+import buy_ticket from "../images/buy_ticket.png";
+import buy_tickets from "../images/buy_tickets.png";
+import br from "../images/buy_tickets_bad.png";
+import br from "../images/br.png";
+import br from "../images/br.png";
+import br from "../images/br.png";
+import br from "../images/br.png";
+import br from "../images/br.png";
+import br from "../images/br.png";
+import br from "../images/br.png";
+import br from "../images/br.png";
+import br from "../images/br.png";
+import br from "../images/br.png";
+import br from "../images/br.png";
+import br from "../images/br.png";
+
+const Icons = {
+
+}
+export default Icons;
