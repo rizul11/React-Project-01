@@ -15,8 +15,8 @@ function GlobalNft() {
         registration closes and you'll have to wait until the new release.
       </p>
       <p>
-        The next release is on <a href="#">February 15th</a> and prices increase
-        by <a href="#">£5</a>.
+        The next release is on <a href="/">February 15th</a> and prices increase
+        by <a href="/">£5</a>.
       </p>
       <div className="progress_bar d-none d-sm-block">
         <div className="lineParent">
@@ -154,7 +154,7 @@ function GlobalNft() {
             blanditiis praesentium voluptatum.
           </p>
           <div className="button_wrapper">
-            <a className="btn btn-primary" href="#">
+            <a className="btn btn-primary" href="/">
               buy tickets
             </a>
           </div>

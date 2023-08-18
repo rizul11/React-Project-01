@@ -12,19 +12,19 @@ function Footer() {
             <h5 className="heading_5">Contact</h5>
             <p>info@techcircus.co.uk</p>
             <div className="social_media">
-              <a href="#">
+              <a href="/">
                 <img src="./images/social01.svg" alt="" className="img-fluid" />
               </a>
-              <a href="#">
+              <a href="/">
                 <img src="./images/social02.svg" alt="" className="img-fluid" />
               </a>
-              <a href="#">
+              <a href="/">
                 <img src="./images/social03.svg" alt="" className="img-fluid" />
               </a>
-              <a href="#">
+              <a href="/">
                 <img src="./images/social04.svg" alt="" className="img-fluid" />
               </a>
-              <a href="#">
+              <a href="/">
                 <img src="./images/social05.svg" alt="" className="img-fluid" />
               </a>
             </div>
@@ -38,13 +38,13 @@ function Footer() {
                   <h5 className="heading_5">Pages</h5>
                   <ul>
                     <li>
-                      <a href="#">SCHEDULE</a>
+                      <a href="/">SCHEDULE</a>
                     </li>
                     <li>
-                      <a href="#">CONTACT</a>
+                      <a href="/">CONTACT</a>
                     </li>
                     <li>
-                      <a href="#">BUY TICKETS</a>
+                      <a href="/">BUY TICKETS</a>
                     </li>
                   </ul>
                 </div>
@@ -54,13 +54,13 @@ function Footer() {
                   <h5 className="heading_5">Important</h5>
                   <ul>
                     <li>
-                      <a href="#">PRIVACY POLICY</a>
+                      <a href="/">PRIVACY POLICY</a>
                     </li>
                     <li>
-                      <a href="#">TERMS &amp; CONDITIONS</a>
+                      <a href="/">TERMS &amp; CONDITIONS</a>
                     </li>
                     <li>
-                      <a href="#">CODE OF CONDUCT</a>
+                      <a href="/">CODE OF CONDUCT</a>
                     </li>
                   </ul>
                 </div>
@@ -83,7 +83,7 @@ function Footer() {
               connections to guarantee high-quality educational events, training
               and content for professional growth.
               <br />
-              Find out more by visiting our website <a href="#">here</a>.
+              Find out more by visiting our website <a href="/">here</a>.
             </p>
             <p className="d-sm-none">
               Defi Conference is a Tech Circus event. We are an independent
@@ -99,7 +99,7 @@ function Footer() {
         </div>
         <div className="col-md-4 order-sm-first">
           <div className="footer_logo">
-            <a href="#">
+            <a href="/">
               <img
                 src="./images/footer_logo.png"
                 alt=""

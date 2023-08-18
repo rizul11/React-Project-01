@@ -87,7 +87,7 @@ function Home() {
             diam blandit pretium nec. Volutpat habitasse.Eu sed malesuada
             pretium, nisi, tellus ultrices.
           </p>
-          <a className="btn btn-primary" href="#">
+          <a className="btn btn-primary" href="/">
             GET YOUR POAP
           </a>
           <div className="row">
@@ -120,7 +120,7 @@ function Home() {
             Eu sed malesuada pretium, nisi, tellus ultrices. Vitae pellentesque
             diam blandit pretium nec.
           </p>
-          <a className="btn btn-primary" href="#">
+          <a className="btn btn-primary" href="/">
             GET YOUR POAP
           </a>
           <img
@@ -178,7 +178,7 @@ function Home() {
               Our powerful platform allows for a truly interactive global live
               event.
             </p>
-            <a href="#" className="see_more d-sm-none">
+            <a href="/" className="see_more d-sm-none">
               <img src="./images/down-arrow.svg" alt="" className="img-fluid" />
             </a>
           </div>
@@ -201,7 +201,7 @@ function Home() {
               Our powerful platform allows for a truly interactive global live
               event.
             </p>
-            <a href="#" className="see_more d-sm-none">
+            <a href="/" className="see_more d-sm-none">
               <img src="./images/down-arrow.svg" alt="" className="img-fluid" />
             </a>
           </div>
@@ -227,7 +227,7 @@ function Home() {
               Our powerful platform allows for a truly interactive global live
               event.
             </p>
-            <a href="#" className="see_more d-sm-none">
+            <a href="/" className="see_more d-sm-none">
               <img src="./images/down-arrow.svg" alt="" className="img-fluid" />
             </a>
           </div>
@@ -252,7 +252,7 @@ function Home() {
               </div>
               <p>
                 Eu sed malesuada pretium, nisi, tellus ultrices. Vitae diam. Eu
-                sed <a href="#">malesuada</a> pretium, nisi, tellus . Vitae
+                sed <a href="/">malesuada</a> pretium, nisi, tellus . Vitae
                 diam.
               </p>
               <img
@@ -261,11 +261,11 @@ function Home() {
                 className="img-fluid updates_image"
               />
               <div className="social_updates">
-                <a href="#">
+                <a href="/">
                   <img src="./images/Reply.svg" alt="" className="img-fluid" />
                   19
                 </a>
-                <a href="#">
+                <a href="/">
                   <img
                     src="./images/Refresh.svg"
                     alt=""
@@ -273,7 +273,7 @@ function Home() {
                   />
                   19
                 </a>
-                <a href="#">
+                <a href="/">
                   <img
                     src="./images/Wishlist.svg"
                     alt=""
@@ -281,13 +281,13 @@ function Home() {
                   />
                   19
                 </a>
-                <a href="#">
+                <a href="/">
                   <img src="./images/Upload.svg" alt="" className="img-fluid" />
                 </a>
               </div>
               <div className="line" />
               <p>
-                via <a href="#">Twitter</a>
+                via <a href="/">Twitter</a>
               </p>
             </div>
           </div>
@@ -303,7 +303,7 @@ function Home() {
               </div>
               <p>
                 Eu sed malesuada pretium, nisi, tellus ultrices. Vitae diam. Eu
-                sed <a href="#">malesuada</a> pretium, nisi, tellus . Vitae
+                sed <a href="/">malesuada</a> pretium, nisi, tellus . Vitae
                 diam.
               </p>
               <img
@@ -312,11 +312,11 @@ function Home() {
                 className="img-fluid updates_image"
               />
               <div className="social_updates">
-                <a href="#">
+                <a href="/">
                   <img src="./images/Reply.svg" alt="" className="img-fluid" />
                   19
                 </a>
-                <a href="#">
+                <a href="/">
                   <img
                     src="./images/Refresh.svg"
                     alt=""
@@ -324,7 +324,7 @@ function Home() {
                   />
                   19
                 </a>
-                <a href="#">
+                <a href="/">
                   <img
                     src="./images/Wishlist.svg"
                     alt=""
@@ -332,13 +332,13 @@ function Home() {
                   />
                   19
                 </a>
-                <a href="#">
+                <a href="/">
                   <img src="./images/Upload.svg" alt="" className="img-fluid" />
                 </a>
               </div>
               <div className="line" />
               <p>
-                via <a href="#">Twitter</a>
+                via <a href="/">Twitter</a>
               </p>
             </div>
           </div>
@@ -354,7 +354,7 @@ function Home() {
               </div>
               <p>
                 Eu sed malesuada pretium, nisi, tellus ultrices. Vitae diam. Eu
-                sed <a href="#">malesuada</a> pretium, nisi, tellus . Vitae
+                sed <a href="/">malesuada</a> pretium, nisi, tellus . Vitae
                 diam.
               </p>
               <img
@@ -363,11 +363,11 @@ function Home() {
                 className="img-fluid updates_image"
               />
               <div className="social_updates">
-                <a href="#">
+                <a href="/">
                   <img src="./images/Reply.svg" alt="" className="img-fluid" />
                   19
                 </a>
-                <a href="#">
+                <a href="/">
                   <img
                     src="./images/Refresh.svg"
                     alt=""
@@ -375,7 +375,7 @@ function Home() {
                   />
                   19
                 </a>
-                <a href="#">
+                <a href="/">
                   <img
                     src="./images/Wishlist.svg"
                     alt=""
@@ -383,20 +383,20 @@ function Home() {
                   />
                   19
                 </a>
-                <a href="#">
+                <a href="/">
                   <img src="./images/Upload.svg" alt="" className="img-fluid" />
                 </a>
               </div>
               <div className="line" />
               <p>
-                via <a href="#">Twitter</a>
+                via <a href="/">Twitter</a>
               </p>
             </div>
           </div>
         </div>
       </div>
       <div className="button_wrapper">
-        <a className="btn btn-primary" href="#">
+        <a className="btn btn-primary" href="/">
           show more updates
         </a>
       </div>
@@ -447,7 +447,7 @@ function Home() {
         <p>
           We are always looking for new speakers on a variety of design &amp;
           technology disciplines. Please apply by filling in our{" "}
-          <a href="#">typeform</a>.
+          <a href="/">typeform</a>.
         </p>
       </div>
     </div>
@@ -466,7 +466,7 @@ function Home() {
               />
               <h4 className="heading_4">Selina Peerbux</h4>
               <h5 className="heading_5">Content CURATOR</h5>
-              <a href="#" className="more_info">
+              <a href="/" className="more_info">
                 say hello
               </a>
             </div>
@@ -480,7 +480,7 @@ function Home() {
               />
               <h4 className="heading_4">Ellie Burchett</h4>
               <h5 className="heading_5">Campaign Manager</h5>
-              <a href="#" className="more_info">
+              <a href="/" className="more_info">
                 say hello
               </a>
             </div>
@@ -494,7 +494,7 @@ function Home() {
               />
               <h4 className="heading_4">James Davies</h4>
               <h5 className="heading_5">Partnerships</h5>
-              <a href="#" className="more_info">
+              <a href="/" className="more_info">
                 say hello
               </a>
             </div>
