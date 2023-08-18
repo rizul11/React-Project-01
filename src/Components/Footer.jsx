@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Icons from '../assets/images/Index'
 function Footer() {
   return (
     <>
@@ -13,19 +13,19 @@ function Footer() {
             <p>info@techcircus.co.uk</p>
             <div className="social_media">
               <a href="/">
-                <img src="./images/social01.svg" alt="" className="img-fluid" />
+                <img src={Icons.social01} alt="" className="img-fluid" />
               </a>
               <a href="/">
-                <img src="./images/social02.svg" alt="" className="img-fluid" />
+                <img src={Icons.social02} alt="" className="img-fluid" />
               </a>
               <a href="/">
-                <img src="./images/social03.svg" alt="" className="img-fluid" />
+                <img src={Icons.social03} alt="" className="img-fluid" />
               </a>
               <a href="/">
-                <img src="./images/social04.svg" alt="" className="img-fluid" />
+                <img src={Icons.social04} alt="" className="img-fluid" />
               </a>
               <a href="/">
-                <img src="./images/social05.svg" alt="" className="img-fluid" />
+                <img src={Icons.social05} alt="" className="img-fluid" />
               </a>
             </div>
           </div>

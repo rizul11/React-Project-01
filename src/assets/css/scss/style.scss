@@ -18,8 +18,8 @@ $gradient-color4: #cdaaff;
 
 @font-face {
   font-family: 'Roobert';
-  src: url('../fonts/Roobert-Bold.woff2') format('woff2'),
-    url('../fonts/Roobert-Bold.woff') format('woff');
+  src: url('/src/assets/fonts/Roobert-Bold.woff2') format('woff2'),
+    url('/src/assets/fonts/Roobert-Bold.woff2') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -27,8 +27,8 @@ $gradient-color4: #cdaaff;
 
 @font-face {
   font-family: 'Roobert';
-  src: url('../fonts/Roobert-Regular.woff2') format('woff2'),
-    url('../fonts/Roobert-Regular.woff') format('woff');
+  src: url('/src/assets/fonts/Roobert-Bold.woff2') format('woff2'),
+    url('/src/assets/fonts/Roobert-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -36,8 +36,8 @@ $gradient-color4: #cdaaff;
 
 @font-face {
   font-family: 'Roobert';
-  src: url('../fonts/Roobert-SemiBold.woff2') format('woff2'),
-    url('../fonts/Roobert-SemiBold.woff') format('woff');
+  src: url('/src/assets/fonts/Roobert-SemiBold.woff2') format('woff2'),
+    url('/src/assets/fonts/Roobert-SemiBold.woff') format('woff');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -574,7 +574,8 @@ p {
     transform: translateY(-50%);
     width: 50%;
     height: 100%;
-    background: url(../images/pattern3_0_left.png);
+    // background: url(/src/assets/images/pattern3_0_left.png);
+    background: url(/src/assets/images/pattern3_0_left.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left center;
@@ -589,7 +590,8 @@ p {
     transform: translateY(-50%);
     width: 50%;
     height: 100%;
-    background: url(../images/pattern3_1_right.png);
+    // background: url(/src/assets/images/pattern3_1_right.png);
+    background: url(/src/assets/images/pattern3_1_right.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right center;
@@ -606,7 +608,8 @@ p {
       transform: translateY(20%);
       width: 100%;
       height: 100%;
-      background: url(../images/mobile_header_bg.png);
+      // background: url(/src/assets/images/mobile_header_bg.png);
+      background: url(/src/assets/images/mobile_header_bg.png);
       background-size: contain;
       background-repeat: no-repeat;
       background-position: bottom;
@@ -872,7 +875,8 @@ p {
     position: absolute;
     left: 0;
     bottom: 10%;
-    background: url(../images/keep_bg.png);
+    // background: url(/src/assets/images/keep_bg.png);
+    background: url(/src/assets/images/keep_bg.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 50%;
@@ -885,7 +889,8 @@ p {
     position: absolute;
     right: 0;
     bottom: 10%;
-    background: url(../images/keep_bg_1.png);
+    // background: url(/src/assets/images/keep_bg_1.png);
+    background: url(/src/assets/images/keep_bg_1.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 50%;
@@ -958,7 +963,8 @@ p {
     position: absolute;
     left: 0;
     top: -32%;
-    background: url(../images/pattern3_6.png);
+    // background: url(/src/assets/images/pattern3_6.png);
+    background: url(/src/assets/images/pattern3_6.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 50%;
@@ -971,7 +977,7 @@ p {
     position: absolute;
     right: 0;
     top: -32%;
-    background: url(../images/pattern3_3.png);
+    background: url(/src/assets/images/pattern3_3.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 50%;
@@ -1018,7 +1024,7 @@ p {
       left: 0;
       bottom: 0;
       background-size: contain;
-      background: url(../images/video_image.png);
+      background: url(/src/assets/images/video_image.png);
       background-repeat: no-repeat;
       width: 100%;
       height: 100%;
@@ -1063,7 +1069,7 @@ p {
     position: absolute;
     left: 0;
     bottom: 0;
-    background: url(../images/pattern3_6_listen.png);
+    background: url(/src/assets/images/pattern3_6_listen.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 50%;
@@ -1077,7 +1083,7 @@ p {
     position: absolute;
     right: 0;
     bottom: 0;
-    background: url(../images/pattern3_4_listen.png);
+    background: url(/src/assets/images/pattern3_4_listen.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 50%;
@@ -1362,37 +1368,37 @@ p {
       padding: 1.5rem;
 
       &.bg1 {
-        background: url(../images/speakers01.png);
+        background: url(/src/assets/images/speakers01.png);
         background-size: cover;
         background-repeat: no-repeat;
       }
 
       &.bg2 {
-        background: url(../images/speakers02.png);
+        background: url(/src/assets/images/speakers02.png);
         background-size: cover;
         background-repeat: no-repeat;
       }
 
       &.bg3 {
-        background: url(../images/speakers03.png);
+        background: url(/src/assets/images/speakers03.png);
         background-size: cover;
         background-repeat: no-repeat;
       }
 
       &.bg4 {
-        background: url(../images/speakers04.png);
+        background: url(/src/assets/images/speakers04.png);
         background-size: cover;
         background-repeat: no-repeat;
       }
 
       &.bg5 {
-        background: url(../images/speakers05.png);
+        background: url(/src/assets/images/speakers05.png);
         background-size: cover;
         background-repeat: no-repeat;
       }
 
       &.bg6 {
-        background: url(../images/speakers06.png);
+        background: url(/src/assets/images/speakers06.png);
         background-size: cover;
         background-repeat: no-repeat;
       }
@@ -1659,7 +1665,7 @@ p {
     position: absolute;
     left: 0;
     top: 74px;
-    background: url(../images/global_nft_left.png);
+    background: url(/src/assets/images/global_nft_left.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 50%;
@@ -1673,7 +1679,7 @@ p {
     position: absolute;
     right: 0;
     top: 74px;
-    background: url(../images/global_nft_right.png);
+    background: url(/src/assets/images/global_nft_right.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 50%;
@@ -1809,7 +1815,7 @@ p {
     position: absolute;
     left: 0;
     bottom: 0;
-    background: url(../images/buy_tickets_left.png);
+    background: url(/src/assets/images/buy_tickets_left.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 50%;
@@ -1821,7 +1827,7 @@ p {
     position: absolute;
     right: 0;
     bottom: 0;
-    background: url(../images/buy_tickets_right.png);
+    background: url(/src/assets/images/buy_tickets_right.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 50%;
@@ -1854,7 +1860,7 @@ p {
       position: absolute;
       left: 0;
       top: 0;
-      background: url(../images/buy_tickets_top_mobile.png);
+      background: url(/src/assets/images/buy_tickets_top_mobile.png);
       background-size: contain;
       background-repeat: no-repeat;
       width: 100%;
@@ -1867,7 +1873,7 @@ p {
       position: absolute;
       left: 0;
       bottom: 0;
-      background: url(../images/buy_tickets_bottom_mobile.png);
+      background: url(/src/assets/images/buy_tickets_bottom_mobile.png);
       background-size: contain;
       background-repeat: no-repeat;
       width: 100%;
@@ -1991,7 +1997,7 @@ p {
     position: absolute;
     left: 0;
     top: 0;
-    background: url(../images/question_left.png);
+    background: url(/src/assets/images/question_left.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 50%;
@@ -2004,7 +2010,7 @@ p {
     position: absolute;
     right: 0;
     top: 0;
-    background: url(../images/question_right.png);
+    background: url(/src/assets/images/question_right.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 50%;
@@ -2073,7 +2079,7 @@ p {
 
 /* Buy Ticket */
 .buy_ticket {
-  background: url(../images/buy_ticket.png);
+  background: url(/src/assets/images/buy_ticket.png);
   background-size: cover;
   padding: 100px 0 160px;
   overflow: hidden;

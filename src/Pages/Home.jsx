@@ -1,4 +1,5 @@
 import React from 'react'
+import Icons from '../assets/images/Index'
 
 function Home() {
   return (
@@ -53,23 +54,27 @@ function Home() {
       <div className="container-sm">
         <div className="video_wrapper">
           <div className="video_content">
-            <img src="./images/Bitmap.png" alt="" className="img-fluid mb-4" />
+            <img src={Icons.Bitmap} alt="" className="img-fluid mb-4" />
             <br />
             <img
-              src="./images/The Global NFT Summi.png"
+              
+              src={Icons.TheGlobalNFTSummi}
               alt=""
               className="img-fluid mb-3"
             />
             <br />
-            <img src="./images/nft.svg" alt="" className="img-fluid" />
+            
+            <img src={Icons.nft} alt="" className="img-fluid" />
             <img
-              src="./images/The Global NFT Summi (1).png"
+             
+              src={Icons.TheGlobalNFTSummi1}
               alt=""
               className="img-fluid"
             />
           </div>
           <img
-            src="./images/icons8-play copy.svg"
+            
+            src={Icons.icons8_play_copy}
             alt=""
             className="img-fluid button"
           />
@@ -93,21 +98,24 @@ function Home() {
           <div className="row">
             <div className="col-md-4">
               <img
-                src="./images/free_poap_1.png"
+                
+                src={Icons.free_poap_1}
                 alt=""
                 className="img-fluid"
               />
             </div>
             <div className="col-md-4">
               <img
-                src="./images/free_poap_2.png"
+                
+                src={Icons.free_poap_2}
                 alt=""
                 className="img-fluid"
               />
             </div>
             <div className="col-md-4">
               <img
-                src="./images/free_poap_3.png"
+               
+                src={Icons.free_poap_3}
                 alt=""
                 className="img-fluid"
               />
@@ -124,7 +132,8 @@ function Home() {
             GET YOUR POAP
           </a>
           <img
-            src="./images/buy_tickets_bad.png"
+            
+            src={Icons.buy_tickets_bad}
             alt=""
             className="img-fluid"
           />
@@ -135,19 +144,24 @@ function Home() {
           </h2>
           <div className="row gx-4 align-items-center">
             <div className="col-4">
-              <img src="./images/wax.png" alt="" className="img-fluid" />
+             
+              <img src={Icons.wax} alt="" className="img-fluid" />
             </div>
             <div className="col-4">
-              <img src="./images/nba.png" alt="" className="img-fluid" />
+             
+              <img src={Icons.nba} alt="" className="img-fluid" />
             </div>
             <div className="col-4">
-              <img src="./images/br.png" alt="" className="img-fluid" />
+              
+              <img src={Icons.br} alt="" className="img-fluid" />
             </div>
             <div className="col-6">
-              <img src="./images/dece.png" alt="" className="img-fluid" />
+              
+              <img src={Icons.dece} alt="" className="img-fluid" />
             </div>
             <div className="col-6">
-              <img src="./images/sandbox.png" alt="" className="img-fluid" />
+              
+              <img src={Icons.sandbox} alt="" className="img-fluid" />
             </div>
           </div>
         </div>
@@ -159,7 +173,8 @@ function Home() {
       <div className="row gx-4">
         <div className="col-md-4">
           <div className="services_box">
-            <img src="./images/services_1.png" alt="" className="img-fluid" />
+            
+            <img src={Icons.services_1} alt="" className="img-fluid" />
             <h4 className="heading_4">Immersive Experience</h4>
             <h6>
               Our powerful platform allows for a truly interactive global live
@@ -179,13 +194,15 @@ function Home() {
               event.
             </p>
             <a href="/" className="see_more d-sm-none">
-              <img src="./images/down-arrow.svg" alt="" className="img-fluid" />
+              
+              <img src={Icons.down_arrow} alt="" className="img-fluid" />
             </a>
           </div>
         </div>
         <div className="col-md-4">
           <div className="services_box">
-            <img src="./images/services_2.png" alt="" className="img-fluid" />
+            
+            <img src={Icons.services_2} alt="" className="img-fluid" />
             <h4 className="heading_4">Network With Everyone</h4>
             <h6>Become a part of the conversation and network at your pace.</h6>
             <p className="d-none d-sm-block">
@@ -202,13 +219,15 @@ function Home() {
               event.
             </p>
             <a href="/" className="see_more d-sm-none">
-              <img src="./images/down-arrow.svg" alt="" className="img-fluid" />
+              
+              <img src={Icons.down_arrow} alt="" className="img-fluid" />
             </a>
           </div>
         </div>
         <div className="col-md-4">
           <div className="services_box">
-            <img src="./images/services_3.png" alt="" className="img-fluid" />
+            
+            <img src={Icons.services_3} alt="" className="img-fluid" />
             <h4 className="heading_4">Never Miss a Thing</h4>
             <h6>
               An event that adapts to the pace of your learning style.
@@ -228,7 +247,8 @@ function Home() {
               event.
             </p>
             <a href="/" className="see_more d-sm-none">
-              <img src="./images/down-arrow.svg" alt="" className="img-fluid" />
+             
+              <img src={Icons.down_arrow} alt="" className="img-fluid" />
             </a>
           </div>
         </div>
@@ -244,7 +264,7 @@ function Home() {
             <div className="updates_box">
               <div className="updates_box_top">
                 <img
-                  src="./images/Oval_Tech.png"
+                  src={Icons.Oval_Tech}
                   alt=""
                   className="img-fluid"
                 />
@@ -256,18 +276,18 @@ function Home() {
                 diam.
               </p>
               <img
-                src="./images/Updates01.png"
+                src={Icons.Updates01}
                 alt=""
                 className="img-fluid updates_image"
               />
               <div className="social_updates">
                 <a href="/">
-                  <img src="./images/Reply.svg" alt="" className="img-fluid" />
+                  <img src={Icons.Reply} alt="" className="img-fluid" />
                   19
                 </a>
                 <a href="/">
                   <img
-                    src="./images/Refresh.svg"
+                    src={Icons.Refresh}
                     alt=""
                     className="img-fluid"
                   />
@@ -275,14 +295,14 @@ function Home() {
                 </a>
                 <a href="/">
                   <img
-                    src="./images/Wishlist.svg"
+                    src={Icons.Wishlist}
                     alt=""
                     className="img-fluid"
                   />
                   19
                 </a>
                 <a href="/">
-                  <img src="./images/Upload.svg" alt="" className="img-fluid" />
+                  <img src={Icons.Upload } alt="" className="img-fluid" />
                 </a>
               </div>
               <div className="line" />
@@ -295,7 +315,7 @@ function Home() {
             <div className="updates_box">
               <div className="updates_box_top">
                 <img
-                  src="./images/Oval_Tech.png"
+                  src={Icons.Oval_Tech}
                   alt=""
                   className="img-fluid"
                 />
@@ -307,18 +327,18 @@ function Home() {
                 diam.
               </p>
               <img
-                src="./images/Updates02.png"
+                src={Icons.Updates02}
                 alt=""
                 className="img-fluid updates_image"
               />
               <div className="social_updates">
                 <a href="/">
-                  <img src="./images/Reply.svg" alt="" className="img-fluid" />
+                  <img src={Icons.Reply} alt="" className="img-fluid" />
                   19
                 </a>
                 <a href="/">
                   <img
-                    src="./images/Refresh.svg"
+                    src={Icons.Refresh}
                     alt=""
                     className="img-fluid"
                   />
@@ -326,14 +346,14 @@ function Home() {
                 </a>
                 <a href="/">
                   <img
-                    src="./images/Wishlist.svg"
+                    src={Icons.Wishlist}
                     alt=""
                     className="img-fluid"
                   />
                   19
                 </a>
                 <a href="/">
-                  <img src="./images/Upload.svg" alt="" className="img-fluid" />
+                  <img src={Icons.Upload} alt="" className="img-fluid" />
                 </a>
               </div>
               <div className="line" />
@@ -346,7 +366,7 @@ function Home() {
             <div className="updates_box">
               <div className="updates_box_top">
                 <img
-                  src="./images/Oval_Tech.png"
+                  src={Icons.Oval_Tech}
                   alt=""
                   className="img-fluid"
                 />
@@ -358,18 +378,18 @@ function Home() {
                 diam.
               </p>
               <img
-                src="./images/Updates03.png"
+                src={Icons.Updates03}
                 alt=""
                 className="img-fluid updates_image"
               />
               <div className="social_updates">
                 <a href="/">
-                  <img src="./images/Reply.svg" alt="" className="img-fluid" />
+                  <img src={Icons.Reply} alt="" className="img-fluid" />
                   19
                 </a>
                 <a href="/">
                   <img
-                    src="./images/Refresh.svg"
+                    src={Icons.Refresh}
                     alt=""
                     className="img-fluid"
                   />
@@ -377,14 +397,14 @@ function Home() {
                 </a>
                 <a href="/">
                   <img
-                    src="./images/Wishlist.svg"
+                    src={Icons.Wishlist}
                     alt=""
                     className="img-fluid"
                   />
                   19
                 </a>
                 <a href="/">
-                  <img src="./images/Upload.svg" alt="" className="img-fluid" />
+                  <img src={Icons.Upload} alt="" className="img-fluid" />
                 </a>
               </div>
               <div className="line" />
@@ -460,7 +480,7 @@ function Home() {
           <div className="col-md-4">
             <div className="our_team_box">
               <img
-                src="./images/Our_team01.png"
+                src={Icons.Our_team01}
                 alt=""
                 className="img-fluid team_image"
               />
@@ -474,7 +494,7 @@ function Home() {
           <div className="col-md-4">
             <div className="our_team_box">
               <img
-                src="./images/Our_team02.png"
+                src={Icons.Our_team02}
                 alt=""
                 className="img-fluid team_image"
               />
@@ -488,7 +508,7 @@ function Home() {
           <div className="col-md-4">
             <div className="our_team_box">
               <img
-                src="./images/Our_team03.png"
+                src={Icons.Our_team03}
                 alt=""
                 className="img-fluid team_image"
               />
@@ -510,25 +530,29 @@ function Home() {
           <strong>Buy Tickets</strong>
         </div>
         <div className="ticker__item">
-          <img src="./images/Tickets_Icon01.svg" alt="" className="img-fluid" />
+          
+          <img src={Icons.Tickets_Icon01} alt="" className="img-fluid" />
         </div>
         <div className="ticker__item item_text">The Global NFT Summit</div>
         <div className="ticker__item">
-          <img src="./images/Tickets_Icon02.svg" alt="" className="img-fluid" />
+          
+          <img src={Icons.Tickets_Icon02} alt="" className="img-fluid" />
         </div>
         <div className="ticker__item item_text">
           <strong>Buy Tickets</strong>
         </div>
         <div className="ticker__item">
-          <img src="./images/Tickets_Icon03.svg" alt="" className="img-fluid" />
+          
+          <img src={Icons.Tickets_Icon03} alt="" className="img-fluid" />
         </div>
         <div className="ticker__item item_text">27-28th July 2022</div>
         <div className="ticker__item">
           <img src="./images/Tickets_Icon01.svg" alt="" className="img-fluid" />
+          <img src={Icons.Tickets_Icon01} alt="" className="img-fluid" />
         </div>
         <div className="ticker__item item_text">The Global NFT Summit</div>
         <div className="ticker__item">
-          <img src="./images/Tickets_Icon02.svg" alt="" className="img-fluid" />
+          <img src={Icons.Tickets_Icon02} alt="" className="img-fluid" />
         </div>
       </div>
     </div>
