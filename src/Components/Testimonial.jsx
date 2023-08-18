@@ -1,12 +1,14 @@
 import React from 'react'
-
+import OwlCarousel from 'react-owl-carousel';
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';
 function Testimonial() {
   return (
     <>
      <section class="testimonial">
         <div class="container-lg">
             <div class="testimonial_inner">
-                <div class="owl-carousel owl-theme">
+                <OwlCarousel class="owl-carousel owl-theme">
                     <div class="testimonial_box">
                         <img src="./images/quote.svg" alt="" class="img-fluid quote_image" />
                         <p class="description">
@@ -49,7 +51,7 @@ function Testimonial() {
                         <p class="author">Wigmund Samuel</p>
                         <h6 class="job">JOB TITLE ROLE</h6>
                     </div>
-                </div>
+                </OwlCarousel>
 
             </div>
         </div>

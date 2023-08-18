@@ -1,5 +1,10 @@
 import React from 'react'
 import Icons from '../assets/images/Index'
+import Orator from '../Components/Orator'
+import Calendar from '../Components/Calendar'
+import Testimonial from '../Components/Testimonial'
+import GlobalNft from '../Components/GlobalNft'
+import Benefactor from '../Components/Benefactor'
 
 function Home() {
   return (
@@ -255,6 +260,7 @@ function Home() {
       </div>
     </div>
   </section>
+  <Benefactor/>
   <section className="updates">
     <div className="container-lg">
       <h1 className="heading_1">Updates</h1>
@@ -422,6 +428,10 @@ function Home() {
       </div>
     </div>
   </section>
+  <Orator/>
+  <Calendar/>
+  <Testimonial/>
+  <GlobalNft/>
   <section className="questions">
     <div className="container-sm">
       <h1 className="heading_1">
