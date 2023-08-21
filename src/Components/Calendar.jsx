@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Icons from '../assets/images/Index'
 function Calendar() {
   return (
     <>
@@ -19,7 +19,7 @@ function Calendar() {
               </div>
               <div className="col-md-4">
                 <img
-                  src="./images/Growth.png"
+                  src={Icons.Growth}
                   alt=""
                   className="img-fluid speakers_imge"
                 />
@@ -40,7 +40,7 @@ function Calendar() {
               </div>
               <div className="col-md-4">
                 <img
-                  src="./images/Application.png"
+                  src={Icons.Application}
                   alt=""
                   className="img-fluid speakers_imge"
                 />
@@ -62,7 +62,7 @@ function Calendar() {
                   </h6>
                   <p>Presented by:</p>
                   <img
-                    src="./images/Presented.png"
+                    src={Icons.Presented}
                     alt=""
                     className="img-fluid presented_imge"
                   />
@@ -78,7 +78,7 @@ function Calendar() {
                     Quam facilisi metus, in vitae phasellus porta. Augue
                     tincidunt gravida sapien massa adipiscino eui.
                   </p>
-                  <a href="#" className="more_info">
+                  <a href="/" className="more_info">
                     MORE INFO
                   </a>
                 </div>
@@ -100,7 +100,7 @@ function Calendar() {
                   </h6>
                   <p>Presented by:</p>
                   <img
-                    src="./images/Presented.png"
+                    src={Icons.Presented}
                     alt=""
                     className="img-fluid presented_imge"
                   />
@@ -116,7 +116,7 @@ function Calendar() {
                     Quam facilisi metus, in vitae phasellus porta. Augue
                     tincidunt gravida sapien massa adipiscino eui.
                   </p>
-                  <a href="#" className="more_info">
+                  <a href="/" className="more_info">
                     MORE INFO
                   </a>
                 </div>
@@ -138,7 +138,7 @@ function Calendar() {
                   </h6>
                   <p>Presented by:</p>
                   <img
-                    src="./images/Presented.png"
+                    src={Icons.Presented}
                     alt=""
                     className="img-fluid presented_imge"
                   />
@@ -154,7 +154,7 @@ function Calendar() {
                     Quam facilisi metus, in vitae phasellus porta. Augue
                     tincidunt gravida sapien massa adipiscino eui.
                   </p>
-                  <a href="#" className="more_info">
+                  <a href="/" className="more_info">
                     MORE INFO
                   </a>
                 </div>
@@ -176,7 +176,7 @@ function Calendar() {
                   </h6>
                   <p>Presented by:</p>
                   <img
-                    src="./images/Presented.png"
+                    src={Icons.Presented}
                     alt=""
                     className="img-fluid presented_imge"
                   />
@@ -192,7 +192,7 @@ function Calendar() {
                     Quam facilisi metus, in vitae phasellus porta. Augue
                     tincidunt gravida sapien massa adipiscino eui.
                   </p>
-                  <a href="#" className="more_info">
+                  <a href="/" className="more_info">
                     MORE INFO
                   </a>
                 </div>
@@ -214,7 +214,7 @@ function Calendar() {
                   </h6>
                   <p>Presented by:</p>
                   <img
-                    src="./images/Presented.png"
+                    src={Icons.Presented}
                     alt=""
                     className="img-fluid presented_imge"
                   />
@@ -230,7 +230,7 @@ function Calendar() {
                     Quam facilisi metus, in vitae phasellus porta. Augue
                     tincidunt gravida sapien massa adipiscino eui.
                   </p>
-                  <a href="#" className="more_info">
+                  <a href="/" className="more_info">
                     MORE INFO
                   </a>
                 </div>
@@ -252,7 +252,7 @@ function Calendar() {
                   </h6>
                   <p>Presented by:</p>
                   <img
-                    src="./images/Presented.png"
+                    src={Icons.Presented}
                     alt=""
                     className="img-fluid presented_imge"
                   />
@@ -268,7 +268,7 @@ function Calendar() {
                     Quam facilisi metus, in vitae phasellus porta. Augue
                     tincidunt gravida sapien massa adipiscino eui.
                   </p>
-                  <a href="#" className="more_info">
+                  <a href="/" className="more_info">
                     MORE INFO
                   </a>
                 </div>
@@ -279,7 +279,7 @@ function Calendar() {
       </div>
     </div>
     <div className="button_wrapper">
-      <a className="btn btn-primary" href="#">
+      <a className="btn btn-primary" href="/">
         see full schedule
       </a>
     </div>

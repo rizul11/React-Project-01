@@ -1,10 +1,14 @@
 import React from 'react'
+import GlobalNft from '../Components/GlobalNft'
+import Benefactor from '../Components/Benefactor'
+import Testimonial from '../Components/Testimonial'
 
 function Sponsors() {
   return (
-    <div>
-      
-    </div>
+    <>
+    <Testimonial/>
+    <Benefactor/>
+    </>
   )
 }
 

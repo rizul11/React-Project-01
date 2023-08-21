@@ -1,4 +1,5 @@
 import React from 'react'
+import Icons from '../assets/images/Index'
 
 function Orator() {
   return (
@@ -12,7 +13,7 @@ function Orator() {
           <div className="speakers_box">
             <div className="speakers_image_wrapper bg1">
               <img
-                src="./images/unsplash_01.png"
+                src={Icons.unsplash_01}
                 alt=""
                 className="img-fluid speakers_imge"
               />
@@ -24,7 +25,7 @@ function Orator() {
                 Aenean et velit odio orci ipsum salar lectus eget sed morbi
                 lorem ipsum eget.
               </p>
-              <a href="#" className="more_info">
+              <a href="/" className="more_info">
                 MORE INFO
               </a>
             </div>
@@ -34,7 +35,7 @@ function Orator() {
           <div className="speakers_box">
             <div className="speakers_image_wrapper bg2">
               <img
-                src="./images/unsplash_02.png"
+                src={Icons.unsplash_02}
                 alt=""
                 className="img-fluid speakers_imge"
               />
@@ -46,7 +47,7 @@ function Orator() {
                 Aenean et velit odio orci ipsum salar lectus eget sed morbi
                 lorem ipsum eget.
               </p>
-              <a href="#" className="more_info">
+              <a href="/" className="more_info">
                 MORE INFO
               </a>
             </div>
@@ -56,7 +57,7 @@ function Orator() {
           <div className="speakers_box">
             <div className="speakers_image_wrapper bg3">
               <img
-                src="./images/unsplash_03.png"
+                src={Icons.unsplash_03}
                 alt=""
                 className="img-fluid speakers_imge"
               />
@@ -68,7 +69,7 @@ function Orator() {
                 Aenean et velit odio orci ipsum salar lectus eget sed morbi
                 lorem ipsum eget.
               </p>
-              <a href="#" className="more_info">
+              <a href="/" className="more_info">
                 MORE INFO
               </a>
             </div>
@@ -78,7 +79,7 @@ function Orator() {
           <div className="speakers_box">
             <div className="speakers_image_wrapper bg4">
               <img
-                src="./images/unsplash_04.png"
+                src={Icons.unsplash_04}
                 alt=""
                 className="img-fluid speakers_imge"
               />
@@ -90,7 +91,7 @@ function Orator() {
                 Aenean et velit odio orci ipsum salar lectus eget sed morbi
                 lorem ipsum eget.
               </p>
-              <a href="#" className="more_info">
+              <a href="/" className="more_info">
                 MORE INFO
               </a>
             </div>
@@ -100,7 +101,7 @@ function Orator() {
           <div className="speakers_box">
             <div className="speakers_image_wrapper bg5">
               <img
-                src="./images/unsplash_05.png"
+                src={Icons.unsplash_05}
                 alt=""
                 className="img-fluid speakers_imge"
               />
@@ -112,7 +113,7 @@ function Orator() {
                 Aenean et velit odio orci ipsum salar lectus eget sed morbi
                 lorem ipsum eget.
               </p>
-              <a href="#" className="more_info">
+              <a href="/" className="more_info">
                 MORE INFO
               </a>
             </div>
@@ -122,7 +123,7 @@ function Orator() {
           <div className="speakers_box">
             <div className="speakers_image_wrapper bg6">
               <img
-                src="./images/unsplash_06.png"
+                src={Icons.unsplash_06}
                 alt=""
                 className="img-fluid speakers_imge"
               />
@@ -134,7 +135,7 @@ function Orator() {
                 Aenean et velit odio orci ipsum salar lectus eget sed morbi
                 lorem ipsum eget.
               </p>
-              <a href="#" className="more_info">
+              <a href="/" className="more_info">
                 MORE INFO
               </a>
             </div>
@@ -143,7 +144,7 @@ function Orator() {
       </div>
     </div>
     <div className="button_wrapper">
-      <a className="btn btn-primary" href="#">
+      <a className="btn btn-primary" href="/">
         SHOW ALL SPEAKERS
       </a>
     </div>

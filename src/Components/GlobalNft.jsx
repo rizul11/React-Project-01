@@ -1,4 +1,5 @@
 import React from 'react'
+import Icons from '../assets/images/Index'
 
 function GlobalNft() {
   return (
@@ -99,7 +100,7 @@ function GlobalNft() {
             <div className="prices_box">
               <h4>Early bird ticket</h4>
               <img
-                src="./images/price_divider.png"
+                src={Icons.price_divider}
                 alt=""
                 className="img-fluid prices_image"
               />
@@ -111,7 +112,7 @@ function GlobalNft() {
             <div className="prices_box">
               <h4>Final release ticket</h4>
               <img
-                src="./images/price_divider.png"
+                src={Icons.price_divider}
                 alt=""
                 className="img-fluid prices_image"
               />
@@ -123,7 +124,7 @@ function GlobalNft() {
             <div className="prices_box">
               <h4>Final release team ticket</h4>
               <img
-                src="./images/price_divider.png"
+                src={Icons.price_divider}
                 alt=""
                 className="img-fluid prices_image"
               />
@@ -135,7 +136,7 @@ function GlobalNft() {
             <div className="prices_box">
               <h4>Final release + workshop </h4>
               <img
-                src="./images/price_divider.png"
+                src={Icons.price_divider}
                 alt=""
                 className="img-fluid prices_image"
               />

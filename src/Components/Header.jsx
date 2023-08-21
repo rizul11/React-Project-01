@@ -1,13 +1,14 @@
 import React from 'react'
-
+import Icons from '../assets/images/Index'
+import { Link } from 'react-router-dom'
 function Header() {
   return (
     <>
     <header className="header">
   <nav className="navbar navbar-expand-lg">
     <div className="container-fluid">
-      <a className="navbar-brand" href="#">
-        <img src="./images/Group 19321.svg" alt="" className="img-fluid" />
+      <a className="navbar-brand" href="/">
+        <img src={Icons.Group19321} alt="" className="img-fluid" />
       </a>
       <button
         className="navbar-toggler collapsed"
@@ -19,12 +20,12 @@ function Header() {
         aria-label="Toggle navigation"
       >
         <img
-          src="./images/hamburger_icon.svg"
+          src={Icons.hamburger_icon}
           alt=""
           className="img-fluid hamburger_icon"
         />
         <img
-          src="./images/close_icon.svg"
+          src={Icons.close_icon}
           alt=""
           className="img-fluid close_icon"
         />
@@ -32,69 +33,69 @@ function Header() {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <div className="header_right header_right_top">
           <div className="btn-group d-flex d-md-none" role="group">
-            <a className="btn btn-blue" href="#">
-              <img src="./images/Vector.svg" alt="" className="img-fluid" />{" "}
+            <a className="btn btn-blue" href="/">
+              <img src={Icons.Vector} alt="" className="img-fluid" />{" "}
               online
             </a>
-            <a className="btn btn-outline-secondary" href="#">
-              <img src="./images/Vector (1).svg" alt="" className="img-fluid" />{" "}
+            <a className="btn btn-outline-secondary" href="/">
+              <img src={Icons.Vector1} alt="" className="img-fluid" />{" "}
               london
             </a>
           </div>
         </div>
         <ul className="navbar-nav me-auto mb-lg-0">
           <li className="nav-item">
-            <a className="nav-link active" href="#">
+            <Link className="nav-link active" to="/Sponsors">
               SPONSORS
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <Link className="nav-link" to="/Presenters">
               Presenters
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <Link className="nav-link" to="/Schedule">
               Schedule
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <Link className="nav-link" to="/Login">
               Login
-            </a>
+            </Link>
           </li>
         </ul>
         <div className="header_right">
           <div className="btn-group d-none d-md-flex" role="group">
-            <a className="btn btn-blue" href="#">
-              <img src="./images/Vector.svg" alt="" className="img-fluid" />{" "}
+            <a className="btn btn-blue" href="/">
+              <img src={Icons.Vector} alt="" className="img-fluid" />{" "}
               online
             </a>
-            <a className="btn btn-outline-secondary" href="#">
-              <img src="./images/Vector (1).svg" alt="" className="img-fluid" />{" "}
+            <a className="btn btn-outline-secondary" href="/">
+              <img src={Icons.Vector1} alt="" className="img-fluid" />{" "}
               london
             </a>
           </div>
           <div className="button_wrapper">
-            <a className="btn btn-primary" href="#">
+            <a className="btn btn-primary" href="/">
               buy tickets
             </a>
           </div>
           <div className="social_media d-flex d-md-none">
-            <a href="#">
-              <img src="./images/social01.svg" alt="" className="img-fluid" />
+            <a href="/">
+              <img src={Icons.social01} alt="" className="img-fluid" />
             </a>
-            <a href="#">
-              <img src="./images/social02.svg" alt="" className="img-fluid" />
+            <a href="/">
+              <img src={Icons.social02} alt="" className="img-fluid" />
             </a>
-            <a href="#">
-              <img src="./images/social03.svg" alt="" className="img-fluid" />
+            <a href="/">
+              <img src={Icons.social03} alt="" className="img-fluid" />
             </a>
-            <a href="#">
-              <img src="./images/social04.svg" alt="" className="img-fluid" />
+            <a href="/">
+              <img src={Icons.social04} alt="" className="img-fluid" />
             </a>
-            <a href="#">
-              <img src="./images/social05.svg" alt="" className="img-fluid" />
+            <a href="/">
+              <img src={Icons.social05} alt="" className="img-fluid" />
             </a>
           </div>
         </div>
@@ -133,7 +134,7 @@ function Header() {
         </div>
       </div>
       <div className="button_wrapper">
-        <a className="btn btn-primary" href="#">
+        <a className="btn btn-primary" href="/">
           buy tickets
         </a>
       </div>

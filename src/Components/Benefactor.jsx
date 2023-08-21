@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Icons from '../assets/images/Index'
 function Benefactor() {
   return (
     <>
@@ -10,17 +10,17 @@ function Benefactor() {
     <div className="sponsors_logo">
       <div className="row gx-4 align-items-center">
         <div className="col-md-4">
-          <img src="./images/dece.png" alt="" className="img-fluid" />
+          <img src={Icons.dece} alt="" className="img-fluid" />
         </div>
         <div className="col-md-4">
-          <img src="./images/Alien.png" alt="" className="img-fluid" />
+          <img src={Icons.Alien} alt="" className="img-fluid" />
         </div>
         <div className="col-md-4">
-          <img src="./images/sandbox.png" alt="" className="img-fluid" />
+          <img src={Icons.sandbox} alt="" className="img-fluid" />
         </div>
       </div>
     </div>
-    <a className="btn btn-primary" href="#">
+    <a className="btn btn-primary" href="/">
       BECOME A SPONSOR
     </a>
   </div>
