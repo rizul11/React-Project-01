@@ -1,12 +1,18 @@
 import React, { useState } from "react";
+import { useFormik } from "formik";
 
 function Login() {
-  const [email, setEmail] = useState("");
-  const [name, setName] = useState("");
-  const [phone, setPhone] = useState("");
-  const [company, setCompany] = useState("");
-  const [subject, setSubject] = useState("");
-  const [enquiry, setEnquiry] = useState("");
+  const initialValues = {
+    name: "",
+    email: "",
+    password: "",
+    confirm_password:"",
+  };
+  const { values, errors, handleBlur, handleChange, handleSubmit } = useFormik({
+    initialValues: initialValues,
+    onSubmit: (values) => {},
+  });
+
   return (
     <>
       <section className="questions">
@@ -23,11 +29,13 @@ function Login() {
                       Name
                     </label>
                     <input
-                      type="text"
+                      type="name"
                       id="name"
-                      value={name}
+                      name="name"
+                      value={values.name}
+                      onChange={handleChange}
+                      onBlur={handleBlur}
                       className="form-control"
-                      onChange={(e) => setName(e.target.value)}
                     />
                   </div>
                   <div className="col-md-12 mb-3">
@@ -37,56 +45,39 @@ function Login() {
                     <input
                       type="email"
                       id="email"
-                      value={email}
+                      name="email"
+                      value={values.email}
+                      onChange={handleChange}
+                      onBlur={handleBlur}
                       className="form-control"
-                      onChange={(e) => setEmail(e.target.value)}
                     />
                   </div>
                   <div className="col-md-6 mb-3">
-                    <label htmlFor="phone" className="form-label">
-                      phone
+                    <label htmlFor="password" className="form-label">
+                      Password
                     </label>
                     <input
-                      type="text"
-                      id="phone"
+                      type="password"
+                      id="password"
+                      name="password"
                       className="form-control"
-                      value={phone}
-                      onChange={(e) => setPhone(e.target.value)}
+                      value={values.password}
+                      onChange={handleChange}
+                      onBlur={handleBlur}
                     />
                   </div>
                   <div className="col-md-6 mb-3">
-                    <label htmlFor="company" className="form-label">
-                      company
+                    <label htmlFor="confirm_password" className="form-label">
+                      Confirm Password
                     </label>
                     <input
-                      type="text"
-                      id="company"
+                      type="password"
+                      id="confirm_password"
+                      name="confirm_password"
                       className="form-control"
-                      value={company}
-                      onChange={(e) => setCompany(e.target.value)}
-                    />
-                  </div>
-                  <div className="col-md-12 mb-3">
-                    <label htmlFor="subject" className="form-label">
-                      subject
-                    </label>
-                    <input
-                      type="text"
-                      id="subject"
-                      className="form-control"
-                      value={subject}
-                      onChange={(e) => setSubject(e.target.value)}
-                    />
-                  </div>
-                  <div className="col-md-12 mb-3">
-                    <label htmlFor="enquiry" className="form-label" value={enquiry} onChange={(e) => setEnquiry(e.target.value)} >
-                      Enquiry
-                    </label>
-                    <textarea
-                      id="enquiry"
-                      className="form-control"
-                      rows={4}
-                      defaultValue={""}
+                      value={values.confirm_password}
+                      onChange={handleChange}
+                      onBlur={handleBlur}
                     />
                   </div>
                 </div>
