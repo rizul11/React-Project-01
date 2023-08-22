@@ -1,16 +1,20 @@
 import React, { useState } from "react";
 import { useFormik } from "formik";
+import { signUpSchema } from "../Forms/Index";
 
 function Login() {
   const initialValues = {
     name: "",
     email: "",
     password: "",
-    confirm_password:"",
+    confirm_password: "",
   };
-  const { values,handleBlur, handleChange, handleSubmit } = useFormik({
+  const { values, errors, handleBlur, handleChange, handleSubmit } = useFormik({
     initialValues: initialValues,
-    onSubmit: (values) => {},
+    validationSchema: signUpSchema,
+    onSubmit: (values) => {
+      console.log(values);
+    },
   });
 
   return (
@@ -37,6 +41,7 @@ function Login() {
                       onBlur={handleBlur}
                       className="form-control"
                     />
+                    {<p className="form-error">{errors.name}</p>}
                   </div>
                   <div className="col-md-12 mb-3">
                     <label htmlFor="email" className="form-label">
